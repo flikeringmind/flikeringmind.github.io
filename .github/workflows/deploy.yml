@@ -14,6 +14,7 @@ jobs:
       uses: appleboy/ssh-action@v1.2.3
       with:
         host: ${{ secrets.VPS_HOST }}
+        port: 4322
         username: ${{ secrets.VPS_USERNAME }}
         key: ${{ secrets.VPS_SSH_KEY }}
         script: |
