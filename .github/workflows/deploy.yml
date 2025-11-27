@@ -22,7 +22,7 @@ jobs:
 
           # Переходим в папку проекта
           cd /little_site/flikeringmind.github.io/
-          ls- la
+          ls -la
 
           # Скачиваем последние изменения
           git pull origin main
