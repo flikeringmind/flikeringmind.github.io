@@ -21,7 +21,8 @@ jobs:
           echo "🚀 Starting deployment..."
 
           # Переходим в папку проекта
-          cd ./little_site/flikeringmind.github.io/
+          cd /little_site/flikeringmind.github.io/
+          ls- la
 
           # Скачиваем последние изменения
           git pull origin main
